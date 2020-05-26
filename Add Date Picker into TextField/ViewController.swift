@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         
         tollbar.setItems([doneButton], animated: true)
         dateTextField.inputAccessoryView = tollbar
+        
+        dateTextField.inputView = datePicker
     }
     
     @objc func doneac() {
